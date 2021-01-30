@@ -1,0 +1,11 @@
+{
+  "name": "about_components",
+  "version": "1.0.0",
+  "description": "An overview of component driven development.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jon Richards",
+  "license": "UNLICENSED"
+}

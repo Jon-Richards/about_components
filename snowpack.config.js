@@ -7,7 +7,10 @@ module.exports = {
   "buildOptions": {
     "out": "dist",
   },
-  "plugins": ['@snowpack/plugin-typescript'],
+  "plugins": [
+    '@snowpack/plugin-typescript',
+    "@snowpack/plugin-postcss"
+  ],
   "routes": [
     /* Enable an SPA Fallback in development: */
     // {"match": "routes", "src": ".*", "dest": "/index.html"},
